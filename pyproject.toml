@@ -1,0 +1,10 @@
+[project]
+name = "dvara"
+version = "0.1.0"
+description = "Open-source AI API Gateway for routing, securing, and observing LLM requests"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.141.1",
+    "uvicorn>=0.52.4",
+]
